@@ -7,5 +7,6 @@
 
 #include <iostream>
 #include <iomanip>
+#include <ostream>
 
 #endif //KISH_KISHLIB_H
