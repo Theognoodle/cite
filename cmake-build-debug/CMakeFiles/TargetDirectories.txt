@@ -1,0 +1,3 @@
+C:/Users/TheOgNoodle/CLionProjects/KiSH/cmake-build-debug/CMakeFiles/KiSH.dir
+C:/Users/TheOgNoodle/CLionProjects/KiSH/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TheOgNoodle/CLionProjects/KiSH/cmake-build-debug/CMakeFiles/rebuild_cache.dir
