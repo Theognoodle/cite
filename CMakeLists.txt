@@ -3,5 +3,7 @@ project(KiSH)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(KiSH main.cpp
-        KiSHLib.h)
+add_executable(
+        KiSH main.cpp
+        KiSHLib.h
+        )

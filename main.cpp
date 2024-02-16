@@ -4,7 +4,11 @@ using namespace std;
 // Create Functions
 
 void build() {
+    bool success = false;
 
+    if (success = true) {
+        cout << "Succesful Build"
+    }
 }
 void fallback() {}
 
