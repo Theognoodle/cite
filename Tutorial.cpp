@@ -1,10 +1,11 @@
-// CITE
+//
+// Created by TheOgNoodle on 2/19/2024.
+//
 
+#include "Tutorial.h"
 
-#include "KiSHLib.h"
-using namespace std;
-
-class Tutorial {
+namespace std {
+    class Tutorial {
     public:
         bool handler;
         // This is a really bad way of doing this
@@ -20,9 +21,7 @@ class Tutorial {
 
 
 
-};
+    };
 
-int main() {
-    string cover = "wow that code sucks";
-    cout << cover;
-}
+
+} // std

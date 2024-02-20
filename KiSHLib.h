@@ -8,5 +8,7 @@
 #include <iostream>
 #include <iomanip>
 #include <ostream>
+#include <string>
+#include <fstream>
 
 #endif //KISH_KISHLIB_H

@@ -55,6 +55,12 @@ build CMakeFiles/KiSH.dir/main.cpp.obj: CXX_COMPILER__KiSH_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\KiSH.dir
   OBJECT_FILE_DIR = CMakeFiles\KiSH.dir
 
+build CMakeFiles/KiSH.dir/Tutorial.cpp.obj: CXX_COMPILER__KiSH_unscanned_Debug C$:/Users/TheOgNoodle/CLionProjects/KiSH/Tutorial.cpp || cmake_object_order_depends_target_KiSH
+  DEP_FILE = CMakeFiles\KiSH.dir\Tutorial.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\KiSH.dir
+  OBJECT_FILE_DIR = CMakeFiles\KiSH.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target KiSH
@@ -63,7 +69,7 @@ build CMakeFiles/KiSH.dir/main.cpp.obj: CXX_COMPILER__KiSH_unscanned_Debug C$:/U
 #############################################
 # Link the executable KiSH.exe
 
-build KiSH.exe: CXX_EXECUTABLE_LINKER__KiSH_Debug CMakeFiles/KiSH.dir/main.cpp.obj
+build KiSH.exe: CXX_EXECUTABLE_LINKER__KiSH_Debug CMakeFiles/KiSH.dir/main.cpp.obj CMakeFiles/KiSH.dir/Tutorial.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\KiSH.dir

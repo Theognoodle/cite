@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(
         KiSH main.cpp
         KiSHLib.h
-        )
+        Tutorial.cpp
+        Tutorial.h
+)
