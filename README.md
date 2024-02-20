@@ -1,8 +1,7 @@
-# KISh
-## Kool Internal Shell
+# CITE
+## Cool Internal Text Editor
 
 
-- KISh is a simple shell utility with ABSOLUTELY NO DOCUMENTATION 
-- KISh is still in heavy development and not ready for release
-- Thank You
+
+- We Have Fifteen percent of a tutorial (YAY SPECIL)
 - 
