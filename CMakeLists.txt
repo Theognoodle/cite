@@ -8,4 +8,7 @@ add_executable(
         internal/KiSHLib.h
         internal/Tutorial.cpp
         internal/Tutorial.h
+        internal/worker.cpp
+        internal/worker.h
+        internal/worker.h
 )
