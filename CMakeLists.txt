@@ -4,8 +4,8 @@ project(KiSH)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(
-        KiSH main.cpp
-        KiSHLib.h
-        Tutorial.cpp
-        Tutorial.h
+        KiSH internal/main.cpp
+        internal/KiSHLib.h
+        internal/Tutorial.cpp
+        internal/Tutorial.h
 )
