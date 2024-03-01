@@ -19,15 +19,39 @@ Requires g++
 ```bash
 git clone github.com/theognoodle/cite
 ls internal
-bash build.sh
+sudo bash build.sh
+```
+OR
+```bash
+git clone https://theognoodle/cite
+ls internal
+g++ main.cpp Tutorial.h Tutorial.cpp KiSHLib.h worker.cpp worker.h
 ```
 ### Ubuntu
 ```bash
 git clone github.com/theognoodle/cite
 ls internal
-./build.sh
+sudo bash build.sh
 ```
-
+### All Debian Based OS's
+```bash
+git clone https://github.com/theognoodle/cite
+ls internal
+sudo bash build.sh
+```
 ### Windows
 Command line installation is not currently supported on windows
 mingw can be used to compile source
+
+## Dependencies
+- g++
+- curl
+- sudo
+- bash
+- git
+## Tech Stack
+- c++
+- debian
+- g++
+- mingw
+- WSL
