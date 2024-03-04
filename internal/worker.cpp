@@ -20,7 +20,7 @@ void worker::pushrow() {
     std::cin >> topRow;
     //this is an awful way of doing this
     keyFile << baseRow << midRow << topRow;
-    std::cout << "/n";
+    std::cout << "\n";
     keyFile.close();
     baseRow = "";
     midRow = "";
@@ -39,5 +39,13 @@ void worker::insert() {
 
 void worker::del() {
     std::cout << "WIP";
+
 }
+// this is disgusting
+void worker::changeTarget() {
+    std::cout << "Insert New Target\n";
+    std::cout << std::endl;
+    std::cin >> worker::target;
+
+};
 

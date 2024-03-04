@@ -12,7 +12,7 @@ int main() {
     while(active = true) {
         int command = 0;
         worker workerInit;
-        std::cout << "Select Function:\n[1] Insert Row \n[2] Insert String\n[3] Delete String\n[4] Change Target\n\n$>";
+        std::cout << "Select Function: \n[1] Insert Row \n[2] Insert String \n[3] Delete String\n[4] Change Target \n\n$>";
          switch (command) {
              case 1:
                  workerInit.pushrow();

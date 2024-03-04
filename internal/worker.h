@@ -11,10 +11,13 @@
 class worker {
     public:
         bool active;
-        void insert();;
-        void del();;
-        void pushrow();
         std::string target;
+        void insert();
+        void del();
+        void pushrow();
+        void changeTarget();
+
+
 
 
 };
