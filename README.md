@@ -25,7 +25,7 @@ OR
 ```bash
 git clone https://theognoodle/cite
 ls internal
-g++ main.cpp Tutorial.h Tutorial.cpp KiSHLib.h worker.cpp worker.h
+g++ main.cpp Tutorial.h Tutorial.cpp KiSHLib.h worker.cpp worker.h -o [INSERT APPLICATION NAME] 
 ```
 ### Ubuntu
 ```bash
